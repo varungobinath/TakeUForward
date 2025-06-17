@@ -30,10 +30,27 @@ public class ReverseLL {
         }
         return prev;
     }
+    private static Node reverseUsingStack(Node head){
+        Node temp = head;
+        Stack<Node> stack = new Stack<>();
+        while(head!=null){
+            head = head.next;
+            temp.next = null;
+            stack.push(temp);
+            temp = head;
+        }
+        head = stack.pop();
+        temp = head;
+        while(!stack.isEmpty()){
+            temp.next = stack.pop();
+            temp = temp.next;
+        }
+        return head;
+    }
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         Node head = createLL(arr);
-        head = reverseLL(head);
+        head = reverseUsingStack(head);
         display(head);
     }
 }
