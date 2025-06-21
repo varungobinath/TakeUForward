@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Medium;
 
 public class PowerSetSubsequence {
     private static void generateSequence(String str,int ind,int n,String s){

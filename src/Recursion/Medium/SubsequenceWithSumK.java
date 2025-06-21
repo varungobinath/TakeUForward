@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Medium;
 
 public class SubsequenceWithSumK {
     private static int countSubsequenceWithTargetSum(int[] arr, int k, int i){
