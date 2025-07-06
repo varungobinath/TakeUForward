@@ -1,7 +1,5 @@
 package DynamicProgramming.D2;
 
-import java.util.Arrays;
-
 public class FallingPathSum {
     private static int fallingPathSum(int[][] matrix,int r,int c){
         if(c<0 || c>=matrix[0].length) return (int) Math.pow(-10,9);
