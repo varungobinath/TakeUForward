@@ -67,13 +67,12 @@ public class BinaryTreeMain {
         return hasSumPath(target-root.data,root.left) || hasSumPath(target-root.data,root.right);
     }
     private static Node convertMirror(Node root){
-        if(root!=null){
-            Node temp = root.left;
-            root.left = root.right;
-            root.right = temp;
-            convertMirror(root.left);
-            convertMirror(root.right);
-        }
+        if(root==null) return null;
+        Node temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+        convertMirror(root.left);
+        convertMirror(root.right);
         return root;
     }
     private static boolean isFullBinaryTree(Node root){//each node has either 2 or 0 children
