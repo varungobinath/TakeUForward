@@ -2,6 +2,14 @@ package Graphs.TheLeetcodeOne;
 
 import java.util.*;
 
+class Node {
+    public int data;
+    public List<Node> neighbors;
+    public Node(int data){
+        this.data = data;
+        neighbors = new ArrayList<>();
+    }
+}
 public class Graphs {
     List<Node> nodes;
     public Graphs(){
