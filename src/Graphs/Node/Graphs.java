@@ -1,4 +1,4 @@
-package Graphs.TheLeetcodeOne;
+package Graphs.Node;
 
 import java.util.*;
 
