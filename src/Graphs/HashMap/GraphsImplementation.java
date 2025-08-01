@@ -17,7 +17,29 @@ class Graphs<T>{
         graphs.get(u).add(v);
         graphs.get(v).add(u);
     }
+    public void addVertex(T a){
+        graphs.put(a,new ArrayList<>());
+    }
+    public void removeVertex(T node){
+        List<T> neighbors = graphs.get(node);
+        for(T n : neighbors){
+            graphs.get(n).remove(node);
+        }
+        graphs.remove(node);
+    }
+    public void removeEdge(T u, T v){
+        if(graphs.containsKey(u)){
+            graphs.get(u).remove(v);
+        }
+        if(graphs.containsKey(v)){
+            graphs.get(v).remove(u);
+        }
+    }
     public void bfsPrint(T start){
+        if(!graphs.containsKey(start)){
+            System.out.println("No vertices as start");
+            return;
+        }
         Queue<T> queue = new LinkedList<>();
         Set<T> visited = new HashSet<>();
         queue.offer(start);
@@ -98,6 +120,11 @@ class Graphs<T>{
             }
         }
     }
+    public void printGraphs(){
+        for(T node : graphs.keySet()){
+            System.out.println(node+" : "+graphs.get(node));
+        }
+    }
 
 }
 
@@ -110,8 +137,15 @@ public class GraphsImplementation {
         graphs.addEdge(3,5);
         graphs.addEdge(6,7);
         graphs.addEdge(8,9);
+        graphs.addVertex(10);
         graphs.bfsPrintAll();
 //        System.out.println(graphs.noOfGraphs());
 //        graphs.dfsPrint(1);
+//        graphs.printGraphs();
+//        System.out.println();
+//        graphs.removeEdge(8,9);
+//        graphs.removeVertex(1);
+        graphs.printGraphs();
+
     }
 }

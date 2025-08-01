@@ -35,6 +35,22 @@ public class Graphs {
         u.neighbors.add(v);
         v.neighbors.add(u);
     }
+    public void addVertex(int a){
+        nodes.add(new Node(a));
+    }
+    public void removeEdge(int a,int b){
+        Node u = getNode(a);
+        Node v = getNode(b);
+        u.neighbors.remove(v);
+        v.neighbors.remove(u);
+    }
+    public void removeVertex(int a){
+        Node u = getNode(a);
+        for(Node n : nodes){
+            n.neighbors.remove(u);
+        }
+        nodes.remove(u);
+    }
     private void bfsprint(Node start){
         Queue<Node> queue = new LinkedList<>();
         Set<Node> visited = new HashSet<>();
@@ -55,6 +71,26 @@ public class Graphs {
         Node node = getNode(start);
         if(node!=null){
             bfsprint(node);
+        }
+    }
+    public void bfsPrintAll(){
+        Set<Node> visited = new HashSet<>();
+        for(Node start : nodes){
+            if(!visited.contains(start)){
+                Queue<Node> queue = new LinkedList<>();
+                queue.offer(start);
+                visited.add(start);
+                while(!queue.isEmpty()){
+                    Node node = queue.poll();
+                    System.out.println(node.data);
+                    for(Node n : node.neighbors){
+                        if(!visited.contains(n)){
+                            queue.offer(n);
+                            visited.add(n);
+                        }
+                    }
+                }
+            }
         }
     }
     private void dfs(Node start,Set<Node> visited){
@@ -79,11 +115,19 @@ public class Graphs {
         Graphs graphs = new Graphs();
         graphs.addEdge(1,2);
         graphs.addEdge(2,3);
-        graphs.addEdge(2,4);
-        graphs.addEdge(3,5);
-        graphs.addEdge(6,7);
-        graphs.addEdge(8,9);
+//        graphs.addEdge(2,4);
+//        graphs.addEdge(3,5);
+//        graphs.addEdge(6,7);
+//        graphs.addEdge(8,9);
+//        graphs.addVertex(10);
+//        graphs.bfsPrint(10);
+//        System.out.println(graphs.noOfGraphs());
+//        graphs.removeEdge(2,3);
+        graphs.bfsPrintAll();
+        System.out.println(graphs.nodes);
+        graphs.removeVertex(3);
 //        graphs.bfsPrint(1);
-        System.out.println(graphs.noOfGraphs());
+        graphs.bfsPrintAll();
+        System.out.println(graphs.nodes);
     }
 }
