@@ -1,4 +1,4 @@
-package BasicRecursion;
+package org.example.BasicRecursion;
 
 public class PrintNTimes {
 //    private static void print(int n){

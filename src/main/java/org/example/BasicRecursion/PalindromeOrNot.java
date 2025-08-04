@@ -1,4 +1,4 @@
-package BasicRecursion;
+package org.example.BasicRecursion;
 
 public class PalindromeOrNot {
     private static boolean isPalin(String s,int i,int j){

@@ -1,4 +1,4 @@
-package Graphs;
+package org.example.Graphs;
 
 import java.util.Arrays;
 

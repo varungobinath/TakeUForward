@@ -1,4 +1,4 @@
-package DynamicProgramming.D2;
+package org.example.DynamicProgramming.D2;
 
 public class MinPathSum {
     private static int minPathSumGrid(int[][] matrix,int r,int c,Integer[][] dp){

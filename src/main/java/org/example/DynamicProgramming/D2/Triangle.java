@@ -1,4 +1,4 @@
-package DynamicProgramming.D2;
+package org.example.DynamicProgramming.D2;
 
 public class Triangle {
     private static int minimumPathSum(int[][] triangle,int r,int c,Integer[][] dp){

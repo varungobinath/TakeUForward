@@ -1,4 +1,4 @@
-package Threads;
+package org.example.Threads;
 
 class RunnableDemo implements Runnable {
     private String threadName;

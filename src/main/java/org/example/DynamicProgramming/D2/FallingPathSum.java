@@ -1,4 +1,4 @@
-package DynamicProgramming.D2;
+package org.example.DynamicProgramming.D2;
 
 public class FallingPathSum {
     private static int fallingPathSum(int[][] matrix,int r,int c){

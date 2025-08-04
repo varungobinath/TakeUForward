@@ -1,4 +1,4 @@
-package BasicRecursion;
+package org.example.BasicRecursion;
 
 public class Fibonaci {
     private static int fibo(int n){

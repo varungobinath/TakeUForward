@@ -1,4 +1,4 @@
-package Graphs.Node;
+package org.example.Graphs.Node;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package BasicMaths;
+package org.example.BasicMaths;
 
 public class GCDorHCF {
     private static int HCF(int a,int b){

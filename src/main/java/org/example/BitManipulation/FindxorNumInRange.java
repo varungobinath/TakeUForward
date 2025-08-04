@@ -1,4 +1,4 @@
-package BitManipulation;
+package org.example.BitManipulation;
 
 public class FindxorNumInRange {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package BasicRecursion;
+package org.example.BasicRecursion;
 
 public class ReverseArray {
     private static void reverse(int[] arr,int i,int j){

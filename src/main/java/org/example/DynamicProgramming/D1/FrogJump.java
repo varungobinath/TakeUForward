@@ -1,4 +1,4 @@
-package DynamicProgramming.D1;
+package org.example.DynamicProgramming.D1;
 
 public class FrogJump {
 //    private static int minEneryToJump(int[] arr,int ind){

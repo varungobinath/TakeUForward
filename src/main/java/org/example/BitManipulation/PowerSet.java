@@ -1,4 +1,4 @@
-package BitManipulation;
+package org.example.BitManipulation;
 
 import java.util.ArrayList;
 import java.util.List;

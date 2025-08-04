@@ -1,4 +1,4 @@
-package DynamicProgramming.D1;
+package org.example.DynamicProgramming.D1;
 
 public class HouseRobber2 {
 //    private static int rob(int[] arr,int ind,int n){

@@ -1,4 +1,4 @@
-package DynamicProgramming.D2;
+package org.example.DynamicProgramming.D2;
 
 public class NinjaTraning {
     private static int maxTraining(int[][] points, int last, int day,Integer[][] dp){

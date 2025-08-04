@@ -1,4 +1,4 @@
-package BasicRecursion;
+package org.example.BasicRecursion;
 
 public class SumOfFirstN {
     private static int sum(int n){

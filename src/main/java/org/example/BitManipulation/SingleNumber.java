@@ -1,4 +1,4 @@
-package BitManipulation;
+package org.example.BitManipulation;
 
 public class SingleNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DynamicProgramming.D1;
+package org.example.DynamicProgramming.D1;
 
 public class HouseRobber {
 //    private static int rob(int[] arr,int ind){
@@ -12,7 +12,7 @@ public class HouseRobber {
         if(dp[ind]!=null) return dp[ind];
         int take = arr[ind] + rob(arr,ind+2,dp);
         int notTake = rob(arr,ind+1,dp);
-        return Math.max(take,notTake);
+        return dp[ind] = Math.max(take,notTake);
     }
     public static void main(String[] args) {
         int[] arr = {1,2,3,1,3,5,8,1,9};//24

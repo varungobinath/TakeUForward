@@ -1,4 +1,4 @@
-package BasicMaths;
+package org.example.BasicMaths;
 
 public class PalindromeNumber {
     public static void main(String[] args) {

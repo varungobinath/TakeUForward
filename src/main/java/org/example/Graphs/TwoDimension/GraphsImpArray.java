@@ -1,4 +1,4 @@
-package Graphs.TwoDimension;
+package org.example.Graphs.TwoDimension;
 
 import java.util.LinkedList;
 import java.util.Queue;

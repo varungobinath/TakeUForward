@@ -1,4 +1,4 @@
-package DynamicProgramming.D1;
+package org.example.DynamicProgramming.D1;
 
 public class ClimbingStairs {
 //    private static int f(int n){

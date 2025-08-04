@@ -1,4 +1,4 @@
-package Threads;
+package org.example.Threads;
 
 class Counter {
     private int count = 0;
