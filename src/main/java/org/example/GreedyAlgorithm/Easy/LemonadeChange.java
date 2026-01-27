@@ -1,4 +1,4 @@
-package GreedyAlgorithm.Easy;
+package org.example.GreedyAlgorithm.Easy;
 
 public class LemonadeChange {
     public static void main(String[] args) {

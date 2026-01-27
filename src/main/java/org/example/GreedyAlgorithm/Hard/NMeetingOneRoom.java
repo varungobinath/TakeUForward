@@ -1,4 +1,4 @@
-package GreedyAlgorithm.Hard;
+package org.example.GreedyAlgorithm.Hard;
 
 import java.lang.classfile.MethodTransform;
 import java.lang.reflect.Array;

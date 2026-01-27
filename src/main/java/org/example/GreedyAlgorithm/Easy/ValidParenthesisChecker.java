@@ -1,4 +1,4 @@
-package GreedyAlgorithm.Easy;
+package org.example.GreedyAlgorithm.Easy;
 
 public class ValidParenthesisChecker {
     private static boolean check(String p,int ind,int count){

@@ -1,4 +1,4 @@
-package Heaps;
+package org.example.Heaps;
 
 import java.util.PriorityQueue;
 

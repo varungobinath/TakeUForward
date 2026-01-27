@@ -1,4 +1,4 @@
-package GreedyAlgorithm.Hard;
+package org.example.GreedyAlgorithm.Hard;
 
 public class JumpGame2 {
     public static void main(String[] args) {

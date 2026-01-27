@@ -1,4 +1,4 @@
-package TrieTree.Basic;
+package org.example.TrieTree.Basic;
 
 public class TrieBT {
     static class Node{
