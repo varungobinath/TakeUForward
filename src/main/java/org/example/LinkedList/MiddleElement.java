@@ -1,4 +1,4 @@
-package LinkedList;
+package org.example.LinkedList;
 
 public class MiddleElement {
     private static Node createLL(int[] arr){

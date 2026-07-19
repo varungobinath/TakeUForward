@@ -1,4 +1,4 @@
-package LinkedList.D2;
+package org.example.LinkedList.D2;
 
 public class Reverse {
     public static Node createLLD(int[] arr){

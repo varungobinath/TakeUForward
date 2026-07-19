@@ -1,4 +1,4 @@
-package LinkedList;
+package org.example.LinkedList;
 
 public class OddEvenLinkedList {
     private static Node createLL(int[] arr){

@@ -1,4 +1,4 @@
-package LinkedList.D1;
+package org.example.LinkedList.D1;
 
 public class Search {
     private static Node create(int[] arr){

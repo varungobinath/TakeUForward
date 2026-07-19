@@ -1,4 +1,4 @@
-package LinkedList.Loop;
+package org.example.LinkedList.Loop;
 
 
 class Node{

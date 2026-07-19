@@ -1,4 +1,4 @@
-package LinkedList;
+package org.example.LinkedList;
 
 public class DeleteNthNodeAtEnd {
     private static Node createLL(int[] arr){
@@ -12,7 +12,7 @@ public class DeleteNthNodeAtEnd {
     }
     private static void display(Node head){
         while(head!=null){
-            System.out.print(head.data+" ");
+            System.out.print(head.data+" "); 
             head = head.next;
         }
         System.out.println();

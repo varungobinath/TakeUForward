@@ -1,4 +1,4 @@
-package LinkedList.D2;
+package org.example.LinkedList.D2;
 
 public class Insert {
     public static Node createLLD(int[] arr){

@@ -1,4 +1,4 @@
-package LinkedList.D1;
+package org.example.LinkedList.D1;
 
 class Node{
     int data;
