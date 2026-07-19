@@ -1,4 +1,4 @@
-package Recursion.Hard;
+package org.example.Recursion.Hard;
 
 public class WordSearch {
     private static boolean search(char[][] letters,String word,int r,int c,int row,int col,int idx){

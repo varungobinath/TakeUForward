@@ -1,4 +1,4 @@
-package Recursion.Hard;
+package org.example.Recursion.Hard;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Recursion.Medium;
+package org.example.Recursion.Medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;

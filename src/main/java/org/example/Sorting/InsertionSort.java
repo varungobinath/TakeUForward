@@ -1,4 +1,4 @@
-package Sorting;
+package org.example.Sorting;
 
 public class InsertionSort {
     public static void main(String[] args) {

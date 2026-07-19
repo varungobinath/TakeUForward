@@ -1,4 +1,4 @@
-package SlidingWindowTwoPointer;
+package org.example.SlidingWindowTwoPointer;
 /*count of subarrays which sum = goal*/
 public class BinarySubarraySum {
     public static void main(String[] args) {

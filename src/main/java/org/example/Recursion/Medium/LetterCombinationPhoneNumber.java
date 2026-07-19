@@ -1,4 +1,4 @@
-package Recursion.Medium;
+package org.example.Recursion.Medium;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class LetterCombinationPhoneNumber {
     }
     public static void main(String[] args) {
         String[] keyboard = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-        String digits = "23";
+        String digits = "235";
         List<String> ans = new ArrayList<>();
         backtracking(ans,keyboard,digits,"",0);
         System.out.println(ans);
